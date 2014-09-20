@@ -1,5 +1,4 @@
 # dd (daily dose of practice) #
-==
 Command line utility for timing chunks of practice time.
 
 # Build #
@@ -22,8 +21,8 @@ Usage: ./practice
 
 # ~wishlist~ #
 
--take text file as an argument.
 -take minutes of each chunk as an argument.
+-add a countdown.
 -display minutes along with print out.
 -pause the timer.
 -move to ncurses.
