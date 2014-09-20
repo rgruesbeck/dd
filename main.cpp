@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <ncurses.h>
 #include "functions.h"
 using namespace std;
 
