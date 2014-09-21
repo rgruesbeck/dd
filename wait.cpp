@@ -12,7 +12,7 @@ void wait(int n){
 
     std::cout << "[";
     int pos = barWidth * progress;
-    for (int i = 0; i < barWidth; ++i) {
+    for (int i = 0; i <= barWidth; ++i) {
         if (i < pos) std::cout << "=";
         else if (i == pos) std::cout << ">";
         else std::cout << " ";
@@ -20,8 +20,8 @@ void wait(int n){
     std::cout << "] " << int(progress * 100.0) << " %\r";
     std::cout.flush();
 
-    std::this_thread::sleep_for(std::chrono::milliseconds(5000));
-    count += 5;
+    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    count += 0.10;
     progress = count / sec;
   }
 }

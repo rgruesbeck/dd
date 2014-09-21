@@ -30,3 +30,5 @@
 # Vim swap files
 *.spw
 *.swo
+
+/lists
